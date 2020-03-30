@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .test:link
+        {
+            color: aqua;    /*未访问链接*/
+        }
+        .test:visited
+        {
+            color:royalblue;   /*已访问链接*/
+        }
+        .test:hover
+        {
+            color:red;      /*鼠标移动到链接上*/
+        }
+        .test:active
+        {
+            color: salmon;  /*鼠标点击时*/
+        }
+    </style>
+</head>
+<body>
+    <a class="test" href="http://www.baidu.com" target="_blank" rel="noopener noreferrer">百度</a>
+</body>
+</html>
